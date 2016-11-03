@@ -24,7 +24,8 @@ public class OpcionVisualizada {
                case "cuadrado":
                    float lado=Float.parseFloat(JOptionPane.showInputDialog("base"));
                    area= lado*lado;
-                   JOptionPane.showMessageDialog(null,"area ="+ area);
+                   //voy a cambiar la visualizacion por consola a pantalla
+                   System.out.println("area ="+ area);
                    break;
                case "triangulo":
                    //no se si hare el gamba este finde o no
