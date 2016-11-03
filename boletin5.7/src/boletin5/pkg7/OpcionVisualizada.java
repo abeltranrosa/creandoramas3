@@ -29,6 +29,7 @@ public class OpcionVisualizada {
                    break;
                case "triangulo":
                    //no se si hare el gamba este finde o no
+                   //verifico que el cambio esta bien
                    float base=Float.parseFloat(JOptionPane.showInputDialog("base"));
                    float altura=Float.parseFloat(JOptionPane.showInputDialog("altura"));
                    area = base*altura/2;
